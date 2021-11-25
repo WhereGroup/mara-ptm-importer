@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS regions;
+DROP TABLE IF EXISTS stops;
+DROP TABLE IF EXISTS stop_times;
+DROP TABLE IF EXISTS itineraries;
+DROP TABLE IF EXISTS itinerary_stop_times;
+DROP TABLE IF EXISTS proxy_stops;
