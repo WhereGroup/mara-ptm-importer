@@ -1,4 +1,9 @@
+<img align="right" src="doc/logo_mara_256.png" />
+
+# PTM Tool (Public Transport vs. Mobility Tool)
+
 # MARA PTM Importer
+
 A GUI tool to calculate regional statistics based on public transport GTFS data (and compare them with Origin-Destination mobility data).
 
 Specify a GTFS feed and geographic regions, select a week and the tool will provide you with temporal statistics on:
@@ -103,3 +108,19 @@ For current predefined settings consult the code configuration and watch the GUI
 - A `MARA-PTM-Importer.exe` executable will be written to `dist/`
 - Add the `queries` directory from this repository to the same directory
 - Add `otp-2.0.0-shaded.jar` to the same directory, this is available at https://repo1.maven.org/maven2/org/opentripplanner/otp/2.0.0/otp-2.0.0-shaded.jar
+
+-----
+
+The PTM tool was developed within the framework of the INTERREG Project "[MARA – Mobility and Accessibility in Rural Areas](https://www.mara-mobility.eu/)".
+
+![](doc/logo_partners_640.png)
+
+<br /><br /><br />
+
+The Tool (incl. this documentation) was developed by
+
+![https://www.regierung-mv.de/Landesregierung/em](doc/logo_em_128.png)
+
+and
+
+![https://wheregroup.com/](doc/logo_wheregroup_128.png)

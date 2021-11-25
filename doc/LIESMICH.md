@@ -1,4 +1,8 @@
-# Anwenderdokumentation MARA PTM Importer
+<img align="right" src="logo_mara_256.png" />
+
+# PTM Tool (Public Transport vs. Mobility Tool)
+
+# Anwenderdokumentation für den MARA PTM Importer
 
 ## Systemvoraussetzungen
 ### Auf dem Anwendersystem
@@ -34,7 +38,7 @@ Im Rahmen der MARA-Fallstudie werden für überregionale Ziele "Proxy"-Haltestel
 # Schritt für Schritt
 Starten Sie das Interface mit einem Doppelklick auf MARA-PTM-Importer.exe. Ein Kommandozeilenfenster erscheint (dieses können Sie ignorieren, es dient zur Fehlersuche im Fall der Fälle) und etwas später die Oberfläche:
 
-<img src="tutorial_interface.png" width=500 />
+![](tutorial_interface.png)
 
 _Achten Sie im Folgenden stets auf die Ausgabe von hilfreichen Fehlermeldungen. Ihre Bedeutung und mögliche Lösungsansätze sind weiter unten erläutert._
 
@@ -46,15 +50,15 @@ Wählen Sie eine Datei mit OpenStreetMap-Daten für die Untersuchungsregion.
 
 _Achtung: Wenn Sie eine falsche Datei für "OSM data" auswählen, kann es passieren, dass ausschließlich ÖV-Verbindungen ohne Umstiege gezählt werden. Hierzu erscheint keine Fehlermeldung! Die "OSM Data"-Datei muss im OSM-PBF-Format vorliegen und die Dateiendung .osm.pbf haben!_
 
-<img src="tutorial_interface_aftergtfsosm.png" width=500 />
+![](tutorial_interface_aftergtfsosm.png)
 
 Geben Sie die Verbindungsdetails zum PostgreSQL/PostGIS-Server an.
 
-<img src="tutorial_interface_dbserver.png" width=500 />
+![](tutorial_interface_dbserver.png)
 
 Geben Sie die Details der Tabelle mit den Untersuchungsregionen an. Als "Label column" können Sie eine Spalte wählen, welche später z. B. für Beschriftungen in Karten dienen soll.
 
-<img src="tutorial_interface_regions.png" width=500 />
+![](tutorial_interface_regions.png)
 
 Wählen Sie den zu untersuchenden Zeitraum aus, zunächst das Jahr, dann die Kalenderwoche.
 
@@ -64,15 +68,15 @@ Wählen Sie, ob überregionale Ziele über "Proxy-"Haltestellen erreicht werden 
 
 Wählen Sie, ob zwischenzeitlich auf dem Datenbankserver erzeugte Daten nach dem erfolgreichen Berechnen der Werte gelöscht werden sollen, indem Sie das entsprechende Häkchen setzen. Werden diese nicht gelöscht, kann es gegebenenfalls bei einer Fehlersuche helfen. Andernfalls gibt es keine Grund sie nicht zu löschen, es werden viele Gigabyte an Speicherplatz auf dem Server freigegeben.
 
-<img src="tutorial_interface_settings.png" width=500 />
+![](tutorial_interface_settings.png)
 
 Klicken Sie auf "Run", wenn Sie den Prozess starten möchten. Je nach Umfang und Komplexität der Daten und je nach verwendeter Hardware kann es Stunden bis Tage dauern, bis er erfolgreich beendet ist. Eine weitere Betreuung des Interface ist bis dahin nicht nötig.
 
-<img src="tutorial_interface_otpstarting.png" width=500 />
+![](tutorial_interface_otpstarting.png)
 
 Nach einer Weile wird die Meldung "INFO ##### Collecting itineraries..." angezeigt und das System komplett ausgelastet. In diesem, dem längsten Arbeitsschritt, wird alle 5 Minuten eine Fortschrittsanzeige ausgegeben, welche die Anzahl der bisher gesammelten Verbindungsmöglichkeiten angibt.
 
-<img src="tutorial_interface_collecting.png" width=500 />
+![](tutorial_interface_collecting.png)
 
 Für die Rufbusdaten des LVP vom Juli 2021 und die KW 2021-29 ist das Ende ungefähr bei 3,5 Millionen dieser "itineraries" erreicht. Anschließend erfolgt die Auswertung der Daten und die Erzeugung der Ausgabewerte.
 
@@ -135,3 +139,17 @@ Zur Fehlersuche hilft es in das Kommandozeilenfenster zu schauen, dort werden St
 ## Das System stürzt komplett ab
 Da der Prozess sehr rechenintensiv ist und den Prozessor komplett auslastet, kann es zu starker Wärmeentwicklung kommen. Achten Sie bitte, dass die existierende Kühlung des Systems angemessen und ausreichend ist.
 
+-----
+
+Das PTM-Tool wurde im Rahmen des INTERREG-Projekts "[MARA – Mobility and Accessibility in Rural Areas](https://www.mara-mobility.eu/)" entwickelt.
+
+![](logo_partners_640.png)
+
+<br /><br /><br />
+Das Tool und die Dokumentation wurden entwickelt von:
+
+![https://www.regierung-mv.de/Landesregierung/em](logo_em_128.png)
+
+und
+
+![https://wheregroup.com/](logo_wheregroup_128.png)
