@@ -113,14 +113,14 @@ For current predefined settings consult the code configuration and watch the GUI
 
 The PTM tool was developed within the framework of the INTERREG Project "[MARA – Mobility and Accessibility in Rural Areas](https://www.mara-mobility.eu/)".
 
-![](doc/logo_partners_640.png)
+<img src="doc/logo_partners_640.png" width="100%" />
 
 <br /><br /><br />
 
 The Tool (incl. this documentation) was developed by
 
-![https://www.regierung-mv.de/Landesregierung/em](doc/logo_em_128.png)
+<a href="https://www.regierung-mv.de/Landesregierung/em"><img src="doc/logo_em_128.png" width="15%" /></a>
 
 and
 
-![https://wheregroup.com/](doc/logo_wheregroup_128.png)
+<a href="https://wheregroup.com"><img src="doc/logo_wheregroup_128.png" width="15%" /></a>

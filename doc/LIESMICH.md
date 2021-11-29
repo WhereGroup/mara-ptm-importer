@@ -143,13 +143,13 @@ Da der Prozess sehr rechenintensiv ist und den Prozessor komplett auslastet, kan
 
 Das PTM-Tool wurde im Rahmen des INTERREG-Projekts "[MARA – Mobility and Accessibility in Rural Areas](https://www.mara-mobility.eu/)" entwickelt.
 
-![](logo_partners_640.png)
+<img src="logo_partners_640.png" width="100%" />
 
 <br /><br /><br />
 Das Tool und die Dokumentation wurden entwickelt von:
 
-![https://www.regierung-mv.de/Landesregierung/em](logo_em_128.png)
+<a href="https://www.regierung-mv.de/Landesregierung/em"><img src="logo_em_128.png" width="15%" /></a>
 
 und
 
-![https://wheregroup.com/](logo_wheregroup_128.png)
+<a href="https://wheregroup.com"><img src="logo_wheregroup_128.png" width="15%" /></a>
