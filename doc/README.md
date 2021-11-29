@@ -151,7 +151,7 @@ As the process is computationally intensive and utilises the processor completel
 
 The PTM tool was developed within the framework of the INTERREG Project "[MARA – Mobility and Accessibility in Rural Areas](https://www.mara-mobility.eu/)".
 
-<img src="logo_partners_640.png" width="100%" />
+<img src="logo_partners_2048.png" width="100%" />
 
 <br /><br /><br />
 
